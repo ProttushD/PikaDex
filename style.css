@@ -1,0 +1,161 @@
+@font-face {
+    font-family:main-font;
+    src: url(./fonts/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:main-font;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 10px
+    
+}
+
+.main{
+  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+
+.main .right img{
+   position: absolute;
+    width: 40vw;
+    max-width: 650px;
+    top: 50%;
+    right: 13%;
+    transform: translateY(-50%);
+}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    z-index: 1000;
+    
+}
+
+.nav .logo {
+    width: 20%;
+}
+
+.nav .logo img{
+    width: 200px;
+    
+}
+.nav .menu{
+    width: 20%;
+        text-align: end;
+    
+}
+.nav .menu i{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main .left{
+    width: 60%;
+    height: 100%;
+     background-color: #fcc60d;
+     padding: 15% 15% 0 5%;
+     position: relative;
+}
+
+
+.main .left img{
+    width: 200px;
+    position: absolute;
+    bottom: -3px;
+    
+}
+
+
+.main .left .card{
+    width: 100%;
+    height: 100%;
+  
+}
+
+.main .left .card h5{
+    font-size: 20px;
+    word-spacing:5px ;
+}
+
+.main .left .card h1{
+    font-size: 140px;
+    margin: 10px 0;
+}
+
+
+.main .left .card p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.main .left .card .number{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.main .left .card .number .dash{
+    width: 50px;
+    height: 3px;
+    background-color: #000;
+}
+
+
+
+
+.main .right{
+    width: 40%;
+    height: 100%;
+    background-color: #fbe8b5;
+    padding: 10% 10% 0 0;
+   
+}
+
+
+
+
+
+.main .right .dots{
+    
+    position: absolute; 
+    
+    right: 2%;
+    top: 50%;
+    
+
+}
+
+.main .right .dots .circle{
+    width: 15px;
+    height: 15px;
+    background-color: #dfbf55;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    
+}
+
+.main .right .dots .circle:nth-child(1){
+   
+    background-color: rgb(4, 4, 4);
+    
+    
+}
+
